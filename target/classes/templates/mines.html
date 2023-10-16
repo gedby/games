@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Minesweeper</h1>
+	<a href="/">Return to Gamestudio</a><br/>
+	
+	<div th:if="${@playerController.logged}">
+		You are logged as <span th:text="${@playerController.loggedPlayer?.name}"/>
+		<a href="/logout">Logout</a>
+	</div>
+	
+	<div th:if="${not @playerController.logged}">
+	<a href="/player">Login or register</a><br/>
+	</div>
+	
+	<a href="/mines">New game</a>
+	<a href="/mines/dec">-</a>
+	<a href="/mines/inc">+</a><br/>
+	<a href="/mines/mark">Change To <span th:text="${@minesController.marking ? 'Open' : 'Mark'}"/></a><br/>
+	Game state: <span th:text="${@minesController.state}"/>
+	<div th:utext="${@minesController.htmlField}"/>
+	
+	<h2>Top scores</h2>
+	<ol>
+		<li th:each="score : ${@minesController.topScores}">
+			<span th:text="${score.player}"/> <span th:text="${score.value}"/>
+		</li>
+	</ol>
+</body>
+</html>

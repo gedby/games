@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Gamestudio</title>
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+</head>
+<body id="indexBody">
+<!-- <img src="/images/rps/gamestudio.jpg"/> -->
+<!--  	<div id="obal">  -->
+<!--  		<div id="head"></div>  -->
+		<div id="menu">
+			<ul id="odkazytop">
+ 					<li><a href="/index2"> Home </a></li> 
+					<li><a href="/player"> Login </a></li>
+					<li><a href="/register2"> Register </a></li>
+					<li><a href="/highscores2"> Highscores </a></li> 
+					<li><a href="/mines"> Minesweeper </a></li>
+					<li><a href="/puzzle"> Puzzle </a></li>
+					<li><a href="/rps"> Rps </a></li>
+					<li><a href="#Video"> About us </a></li>
+				</ul>
+		</div>
+		
+		
+	<H1 style="font-family:Broadway;text-align:center" id="Nadpis">Welcome to Gamestudio!</H1>	
+	<H1 style="font-family:Vivaldi;text-align:center" id="Nadpis2">Join us and challenge the top players around the world.</H1>
+	
+	<div th:if="${@playerController.logged}">
+		<H1 style="font-family:Vivaldi;text-align:center" id="Nadpis3"> You are logged as <span th:text="${@playerController.loggedPlayer?.name}"/></H1> 
+		<H1 style="font-family:Vivaldi;text-align:center" id="Nadpis3"><a href="/logout">Logout</a></H1>
+	</div>
+	
+	
+	<pre>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</pre>
+	
+	<iframe width="420" height="315"
+src="https://www.youtube.com/embed/xHP2GgxYddY?autoplay=1">
+</iframe>
+
+
+	
+<!-- 	<div th:if="${not @playerController.logged}"> -->
+<!-- 	<a href="/player">Login or register</a><br/> -->
+<!-- 	</div> -->
+	
+<!-- 	<h2>Our best games</h2> -->
+<!-- 	<a href="/mines">Minsweeper</a><br/> -->
+<!-- 	<a href="/puzzle">Puzzle</a><br/> -->
+<!--  	<a href="/rps">RPS</a><br/>  -->
+ 	
+ 	
+</body>
+</html>

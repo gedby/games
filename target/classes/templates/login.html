@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<head>
+<title>Puzzle</title>
+</head>
+<body id="indexBody">
+<!-- 	<h1>Login</h1> -->
+	<H1 style="font-family:Vivaldi;text-align:center" id="Nadpis2">Login</H1>
+<!-- 	Message: <span th:text="${@playerController.message}"/><br/> -->
+	
+	<form id="register2" action="/login" method="post">
+		Name: <input type="text" name="name" th:value="${@playerController.loggedPlayer?.name}"/><br/>
+		Password: <input type="password" name="password"/><br/>
+		<input type="submit" value="Login"/><br/>
+	</form>
+
+
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+
+<div id="menu3">
+			<ul id="odkazytop">
+ 					<li><a href="/index2"> Back </a></li> 
+
+				</ul>
+		</div>
+
+	
+</body>
+</html>
