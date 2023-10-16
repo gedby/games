@@ -1,0 +1,83 @@
+.field td {
+	font-size: 24px;
+	width: 70px;
+	height: 70px;
+	border: solid 1px black;
+	background-color: #B8FF33;
+	padding: 0px;
+}
+
+.field a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	background-color: #e3ffb3;
+}
+
+#rpsTable {
+	margin-left: +200px;
+/* 	margin-right: auto;	 */
+/* float: left; */
+}
+
+#menu2 {
+	
+}
+
+#odkazytop2 {
+	
+}
+
+#menu {
+height: 50px;
+background: #B8FF33;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #71b300;
+	
+}
+
+#menu li {
+    float: left;
+	margin-left:20px;
+}
+
+#menu li a {
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Broadway;
+    font-size: 24px;
+    font-weight: border;
+}
+
+#menu li a:hover {
+    background-color: gold;
+    color: black;
+    
+}
+
+#nadpis {
+	color: #71b300;
+}
+
+
+
+#red {
+ 	float: right; 
+}
+
+#vyber {
+	float: right;
+/* 	top: 50%; */
+/* 	left: 50%; */
+}
