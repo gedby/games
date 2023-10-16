@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<head>
+<title>Puzzle</title>
+</head>
+<body>
+	<h1>Puzzle</h1>
+
+	<a href="/puzzle">New game</a> <br/>
+	Game state:
+	<span th:text="${@puzzleController.state ? 'Solved' : 'Playing'}" />
+	<div th:utext="${@puzzleController.htmlField}" />
+	
+	<form action="/puzzle/action" method="get">
+		Tile to move:<input name="tile" type="hidden" value="8"/><br/>
+		<input type="submit" value="Send"/>
+	</form>
+</body>
+</html>

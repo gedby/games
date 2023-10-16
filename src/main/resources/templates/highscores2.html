@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<head>
+<title>Highscores</title>
+</head>
+<body id="scoreBody">
+
+
+
+	<h2 style="font-family:Broadway;text-align:center" id="highScore">RPS top players:</h2>
+	
+	
+	
+	
+<table align="center">
+<tr>
+<td id="highScore2">
+<ol id="highScore2">
+		<li id="highScore2" th:each="score : ${@RPSController.topScores}">
+			<span th:text="${score.player}"/> <span  th:text="${score.value}"/>
+		</li>
+	</ol>
+</td>
+</tr>
+</table>
+
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+
+<div id="menu2">
+			<ul id="odkazytop">
+ 					<li><a href="/rps"> Back </a></li> 
+<!-- 					<li><a href="/player"> Login </a></li> -->
+<!-- 					<li><a href="/register2"> Register </a></li> -->
+<!-- 					<li><a href="/highscores2"> Highscores </a></li>  -->
+<!-- 					<li><a href="/mines"> Minesweeper </a></li> -->
+<!-- 					<li><a href="/puzzle"> Puzzle </a></li> -->
+<!-- 					<li><a href="/rps"> Rps </a></li> -->
+<!-- 					<li><a href="#Video"> About us </a></li> -->
+				</ul>
+		</div>
+
+<pre>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</pre>
+	
+	<iframe width="420" height="315"
+src="https://www.youtube.com/embed/Bu_KNdPWNhI?autoplay=1">
+</iframe>
+
+</body>
+</html>

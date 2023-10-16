@@ -1,0 +1,190 @@
+.field td {
+	font-size: 24px;
+	width: 32px;
+	height: 32px;
+	border: solid 1px #0099ff;
+	background-color: #0099ff;
+}
+
+.field a {
+	color: white;
+	text-decoration: none;
+}
+
+#menu {
+height: 50px;
+background: #0099ff;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #996633;
+	
+}
+
+#menu li {
+    float: left;
+	margin-left:20px;
+}
+
+#menu li a {
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Broadway;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#menu li a:hover {
+    background-color: gold;
+    color: black;
+    
+}
+
+#menu2 {
+/* height: 50px; */
+/* background: #9900cc; */
+width: 97px;
+}
+
+#menu2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9900cc;
+    width: 100%;
+  
+}
+
+#menu2 li {
+    float: left;
+/* 	margin-left:20px; */
+}
+
+#menu2 li a {
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Broadway;
+    font-size: 24px;
+    font-weight: normal;
+    
+}
+
+#menu2 li a:hover {
+    background-color: #3385ff;
+    color: #003d99;
+    
+}
+
+#menu3 {
+/* height: 50px; */
+/* background: #9900cc; */
+width: 97px;
+}
+
+#menu3 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #996633;
+    width: 100%;
+  
+}
+
+#menu3 li {
+    float: left;
+/* 	margin-left:20px; */
+}
+
+#menu3 li a {
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Broadway;
+    font-size: 24px;
+    font-weight: normal;
+    
+}
+
+#menu3 li a:hover {
+    background-color: gold;
+    color: black;
+    
+}
+
+#indexBody {
+/* background: #ebd8c6;  */
+background-image: url("/images/rps/wallpaper10.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+margin-top:0; 
+height: 100%;
+}
+
+#scoreBody {
+/* background: #ebd8c6;  */
+background-image: url("/images/rps/wallpaper2.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+margin-top:0; 
+height: 100%;
+}
+
+#head {
+height: 120px;
+width: 1100px;
+/* background-image: url("gamestudio.png"); */
+}
+
+#Nadpis {
+	font-size: 60px;
+	color: brown;
+}
+
+#Nadpis2 {
+	font-size: 50px;
+	color: brown;
+}
+
+#Nadpis3 {
+	font-size: 40px;
+	color: #00ff00;
+}
+
+#highScore {
+	font-size: 40px;
+	color: purple;
+	font-family: Broadway;
+	text-align: center;
+}
+
+#highScore2 {
+	font-size: 20px;
+	color: purple;
+	font-family: Broadway;
+	text-align: center;
+}
+
+#register2 {
+	text-align: center;
+	color: brown;
+	font-family: Vivaldi;
+	font-size: 27px;
+	font-weight: bolder;
+	
+}
